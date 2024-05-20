@@ -1,0 +1,104 @@
+body {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1); 
+}
+
+main {
+    background-size: contain;
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+nav, footer {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#pink, #blue {
+    padding: 20px;
+}
+
+#blue {
+    background-color: #5bcefa;
+}
+
+#pink {
+    background-color: #f5a9b8;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.menu, .name {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav a, .name {
+    font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    color: #5bcefa;
+    font-size: large;
+    height: 20px;
+}
+
+a:hover {
+    color: #f5a9b8;
+    font-weight: bolder;
+}
+
+.about, .steps, .checklist, .docs, .thanks {
+    margin: 10%;
+    margin-top: 0;
+    width: 80%;
+    height: auto;
+    display: grid;
+    row-gap: 40px;
+}
+
+.titles, .text {
+    height: auto;
+    width: 100%;
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+    color: #244561;
+}
+
+.titles {
+    font-size: x-large;
+}
+
+.text {
+    font-size: large;
+}
+
+#about {
+    font-size: medium;
+}
+
+
+
+/* ----------------------- checklist ----------------------- */
+
+#list {
+    text-align: left;
+}
+
+input {
+	width: 1.5em;
+	height: 1.5em;
+	margin-right: 0.65rem;
+    accent-color: #5bcefa;
+    ;
+}
+
+
