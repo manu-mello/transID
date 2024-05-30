@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
     <title>meu nome, minha identidade</title>
 </head>
-<body>
+<body onload="makeImage()">
     <header id="index">
         <div id="blue"></div>
         <div id="pink"></div>
@@ -33,6 +33,11 @@
             a burocracia da retificação de nome em Minas Gerais
         </section>
         <p id="steps" class="titles">passo a passo</p>
+        <section class="passos" id="passos">
+            <button onclick="previous()"><img src="previous.svg" alt="Voltar"></button>
+            <div class="pageContainer"><div id="passo"></div></div>
+            <button onclick="next()"><img src="next.svg" alt="Próximo"></button>
+        </section>
         <section class="text">
             !!! IMPORTANTE !!!
             <br><br>
